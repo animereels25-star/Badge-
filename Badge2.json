@@ -1,0 +1,26 @@
+{
+  "name": "Nuvio Language Badges",
+  "description": "Custom color-coded language tags and flags for the stream selection screen.",
+  "type": "formatter",
+  "replacements": [
+    { "find": "\\b(en|eng|english)\\b", "replace": "🇬🇧 ENG", "caseSensitive": false },
+    { "find": "\\b(es|esp|spanish|castellano|doblado)\\b", "replace": "🇪🇸 ESP", "caseSensitive": false },
+    { "find": "\\b(lat|latin|latino)\\b", "replace": "🇲🇽 LAT", "caseSensitive": false },
+    { "find": "\\b(fr|fra|french|francais)\\b", "replace": "🇫🇷 FRA", "caseSensitive": false },
+    { "find": "\\b(de|deu|ger|german)\\b", "replace": "🇩🇪 DEU", "caseSensitive": false },
+    { "find": "\\b(it|ita|italian)\\b", "replace": "🇮🇹 ITA", "caseSensitive": false },
+    { "find": "\\b(pt|por|portuguese|br)\\b", "replace": "🇵🇹 POR", "caseSensitive": false },
+    { "find": "\\b(hi|hin|hindi)\\b", "replace": "🇮🇳 HIN", "caseSensitive": false },
+    { "find": "\\b(ja|jp|jpn|japanese|anime)\\b", "replace": "🇯🇵 JPN", "caseSensitive": false },
+    { "find": "\\b(multi|multilang|dual|dual-audio)\\b", "replace": "🌐 MULTI", "caseSensitive": false }
+  ],
+  "styles": {
+    "🇬🇧 ENG": { "color": "#4A90E2", "bold": true },
+    "🇪🇸 ESP": { "color": "#F5A623", "bold": true },
+    "🇲🇽 LAT": { "color": "#107C41", "bold": true },
+    "🇫🇷 FRA": { "color": "#9013FE", "bold": true },
+    "🇩🇪 DEU": { "color": "#D0021B", "bold": true },
+    "🇮🇳 HIN": { "color": "#FF7B00", "bold": true },
+    "🌐 MULTI": { "color": "#50E3C2", "bold": true }
+  }
+}
